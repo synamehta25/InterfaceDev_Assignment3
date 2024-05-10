@@ -7,6 +7,10 @@
     <title>Congratulations!</title>
 </head>
 <body>
+    <img src="check.png" alt="Paris">
+    <h1>Congratulations!</h1>
+    <div>Your order has been processed and is on its way</div>
+    <div>order number: XXXX</div>
 
 </body>
 </html>

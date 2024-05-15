@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-
+    width, initial-scale=1.0">
+    <title>Check out</title>
+</head>
+<body>
+    <h1>Check out</h1>
+    <div>Order Total:</div>
+    <div>$90.19</div>
+    <div>Shipping:</div>
+    <div>$9.00</div>
+    <div>Total</div>
+    <div>$99.19</div>
+    <div>order number: XXXX</div>
+
+</body>
+</html>

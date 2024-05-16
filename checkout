@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewpoint" content="width=device-
     width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Check out</title>
 </head>
 <body>
+    
+    <div class="product"><table></table>
+    </div>
+    
+<hr>
     <h1>Check out</h1>
+    <link rel="stylesheet" href="button.css">
     <div>Order Total:</div>
     <div>$90.19</div>
     <div>Shipping:</div>

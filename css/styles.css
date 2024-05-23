@@ -31,3 +31,13 @@ body{
 .float-left{
     float: left
 }
+
+/* confirmation page */
+.text-title{
+    font-size: xxx-large;
+}
+
+.text-content{
+    font-size: xx-large;
+}
+

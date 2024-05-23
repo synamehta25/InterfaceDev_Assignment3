@@ -16,6 +16,19 @@ body{
     position: fixed;
 }
 
+.site-nav{
+    display: flex;
+    padding: .5rem;
+    /* this could be removed */
+    background-color: #062842;
+}
+
+.site-nav > li > a{
+    color: white;
+    background-color: #062842;
+    padding: 1rem;
+}
+
 .wrapper{
     width: 90%;
     margin: 0 auto;

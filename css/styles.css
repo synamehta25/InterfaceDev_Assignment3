@@ -26,3 +26,8 @@ body{
     float: left;
     text-align: left;
 }
+
+/* add image with left align for location */
+.float-left{
+    float: left
+}

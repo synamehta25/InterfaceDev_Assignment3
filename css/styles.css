@@ -269,3 +269,8 @@ input:focus{
     width: 100%;
     border-collapse: collapse;
 }
+
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}

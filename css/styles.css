@@ -303,3 +303,22 @@ td img{
     margin-right: 10px;
 }
 
+
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table{
+    border-top: 3px solid black;
+    width: 100%;
+    max-width: 350px;
+}
+
+td: last-child{
+    text-align: right;
+}
+
+th: last-child{
+    text-align: right;
+}

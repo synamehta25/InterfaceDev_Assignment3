@@ -290,3 +290,16 @@ td input{
     height: 30px;
     padding: 5px;
 }
+
+td a{
+    color: #D2E2F8;
+    font-size: 12px;
+}
+
+/* image size for shopping cart*/
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+

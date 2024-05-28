@@ -300,29 +300,45 @@ td a{
     font-size: 12px;
 }
 
-/* image size for shopping cart*/
-td img{
-    width: 80px;
-    height: 80px;
-    margin-right: 10px;
+
+/* for confrimation page */
+body{
+    margin: 0;
+    font-family: Inter;
 }
 
-
-.total-price{
+.cover{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    padding-right: 20px;
 }
 
-.total-price table{
-    border-top: 3px solid black;
-    width: 100%;
-    max-width: 400px;
-}
-
-td: last-child{
+.content{
     text-align: right;
 }
 
-th: last-child{
-    text-align: right;
+.stack{
+    display: inline-block;
+}
+
+img{
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.text-title{
+    font-size: 2em;
+    margin: 0;
+}
+
+.text-content {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.ordernumber{
+    font-size: 1.2em;
+    margin: 10px 0;
 }

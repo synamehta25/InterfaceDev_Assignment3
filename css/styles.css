@@ -12,7 +12,7 @@
 
 body{
     /* this could be deleted */
-    font-family: Arial;
+    font-family: 'Poppins', snas-serif;
     text-align: center;
 }
 
@@ -177,6 +177,9 @@ h4{
     color: #FFC44D;
 }
 
+.col-4:hover{
+    transform: translateY(-5)
+}
 
 .btn{
     display: inline-block;
@@ -255,7 +258,7 @@ input:focus{
 }
 
 .single-product .fa{
-    color: #FFC44D;
+    color: #062842;
     margin-left: 10px;
 }
 

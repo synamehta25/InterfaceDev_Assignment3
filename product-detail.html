@@ -6,122 +6,103 @@
     <title>Discount Animal Supplies Lysterfield</title>
     <!-- CSS Stylesheet-->
     <link rel="stylesheet" href="css\styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
 </head>
 
 <!-- ------- single product details -->
-<body>  
+<body>
     <div class="small-container single-product">
         <div class="row">
-        <div class="col-2">
-            <img src="images/BullySticksFront_300x.jpg" width="50%" id="Productimg">
-            
-            <div class="small-img-row">
-                <div class="small-img-col">
-                    <img src ="images/Loose-BullyStickFront_300x.jpg" width="100%" class="small-img">
-                </div>
-                <div class="small-img-col">
-                    <img src ="images/Loose-BullySticks_300x.jpg" width="100%" class="small-img">
-                </div>
-            </div>
+            <div class="col-2">
+                <img src="images/BullySticksFront_300x.jpg" width="50%" id="ProductImg">
+                
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/BullyStickBack_300x.jpg" width="50%" class="small-img">
+                    </div>
 
-        </div>
-        <div class="col-2">
-            <p>All Products > Dogs > Food</p>
-            <h2>Bully Stick</h2>
-            <h4>$23.99</h4>
-            <select>
-                <option>Select Size</option>
-                <option>Small</option>
-                <option>Medium</option>
-                <option>Large</option>
-            </select>
-            <input type="QTY" vlaue="1">
-            <a href="" class="btn">Add to Cart</a>
-            
-            <h3>Help Support <i class="fa fa-indent"></i></h3>
-            <p>Boredom Bursting Healthy Joints Dental Hygeine Muscle Development</p>
-            <br>
-            <h3>Recommended For</h3><br>
-            <p>Light Chewer Moderate ChewerPower Chewer</p>
+                    <div class="small-img-col">
+                        <img src="images/Loose-BullyStickFront_300x.jpg" width="50%" class="small-img">
+                    </div>
+
+                    <div class="small-img-col">
+                        <img src="images/Loose-BullySticks_300x.jpg" width="50%" class="small-img">
+                    </div>
                 </div>
+        
+            </div>
+            <div class="col-2">
+                <p>All Products > Dogs > Food </p>
+                <h1>Bully Sticks</h1>
+                <h4>$20.99</h4>
+                <select>
+                    <option>Select Size</option>
+                    <option>Large</option>
+                    <option>Medium</option>
+                    <option>Small</option>
+                </select>
+                <input type="number" value="1">
+                <a href="" class="btn">ADD TO CART</a>
+                <h3>Helps Support<i class="fa fa-indent"></i></h3>
+                <br>
+                <p>Boredom Bursting</p>
             </div>
         </div>
+    </div>
 
-<!---------title----->
+    <!------title-->
     <div class="small-container">
         <div class="row row-2">
             <h2>Related Products</h2>
-            <p>View more</p>
+            <p>View More</p>
         </div>
     </div>
-    <!---------productws--->
+    <!------product-->
     <div class="small-container">
-        <div class="row">
+        <dic class="row">
             <div class="col-4">
-                <img src="images/BullyStickBack_300x.jpg">
-                <h4>Bully Stick</h4>
+                <img src="images/BullySticksFront_300x.jpg" width="30%">
+                <h4>Chicken Fillet</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$23.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/BullySticksFront_300x.jpg" width="30%">
+                <h4>Kangeroo Jerky</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star-half-o"></i>
-                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$23.00</p>
             </div>
-            <p>$23.99</p>
-        </div>
-        <div class="row">
-            <div class="col-4">
-                <img src="images/BullyStickBack_300x.jpg">
-                <h4>Bully Stick</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                    <i class="fa fa-star-o"></i>
-            </div>
-            <p>$23.99</p>
-        </div>
-        <div class="row">
-            <div class="col-4">
-                <img src="images/BullyStickBack_300x.jpg">
-                <h4>Bully Stick</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                    <i class="fa fa-star-o"></i>
-            </div>
-            <p>&23.99</p>
+
         </div>
     </div>
+    </body>
 
-</div>
 
-
-<!-- /* java for product gallery*/ -->
+<!----------javascript for product gallery----------->
     <script>
-        var Productimg = document.getElementById("Productimg");
-        var Smallimg = document.getElementsByClassName("small-img")
+    var ProductImg = document.getElementById("ProductImg");
+    var SmallImg = document.getElementsByClassName("small-img");
 
-        SmallImg[0].onclick = function()
-        {
-            ProductImg.src = SmallImg[0].src;
-        }
-        SmallImg[1].onclick = function()
-        {
-            ProductImg.src = SmallImg[0].src;
-        }
-        SmallImg[2].onclick = function()
-        {
-            ProductImg.src = SmallImg[0].src;
-        }
-        SmallImg[3].onclick = function()
-        {
-            ProductImg.src = SmallImg[0].src;
-        }
+    SmallImg[0].onclick = function(){
+        ProductImg.src = SmallImg[0].src;
+    }
+    SmallImg[1].onclick = function(){
+        ProductImg.src = SmallImg[1].src;
+    }
+    SmallImg[2].onclick = function(){
+        ProductImg.src = SmallImg[2].src;
+    }
     </script>
 </body>
-</html>

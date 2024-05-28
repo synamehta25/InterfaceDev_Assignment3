@@ -288,6 +288,10 @@ input:focus{
         font-size: 26px;
         line-height: 32px;
     }
+
+    .cart-info p{
+        display: none;
+    }
  }
 
 
@@ -343,14 +347,12 @@ td img{
 .total-price table{
     border-top: 3px solid #D2E2F8;
     width: 100%;
-    max-width: 350px;
+    max-width: 10px;
 }
-
 td:last-child{
     text-align: right;
 }
-
-th: last-child{
+th:last-child{
     text-align: right;
 }
 

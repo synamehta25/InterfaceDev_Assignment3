@@ -269,15 +269,16 @@ input:focus{
     margin: 80px auto;
 }
 
-.table{
+table{
     width: 100%;
     border-collapse: collapse;
 }
 
 .cart-info{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: warp;
 }
+ 
 th{
     text-align: left;
     padding: 5px;
@@ -289,18 +290,42 @@ th{
 td{
     padding: 10px 5px;
 }
+
 td input{
     width: 40px;
-    height: 30px;
+    height: 10px;
     padding: 5px;
 }
 
 td a{
-    color: #D2E2F8;
+    color: red;
     font-size: 12px;
 }
 
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;    
+}
 
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table{
+    border-top: 3px solid #D2E2F8;
+    width: 100%;
+    max-width: 350px;
+}
+
+td:last-child{
+    text-align: right;
+}
+
+th: last-child{
+    text-align: right;
+}
 /* for confrimation page */
 body {
     margin: 0;
@@ -346,3 +371,5 @@ img {
     font-size: 1.2em;
     margin: 10px 0;
 }
+
+

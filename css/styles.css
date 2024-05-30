@@ -6,13 +6,12 @@
 *{
     margin: 0;
     padding: 0;
-    /*this could be deleted*/
     box-sizing: border-box;
 }
 
 body{
     /* this could be deleted */
-    font-family: 'Poppins', snas-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
 }
 
@@ -285,7 +284,7 @@ input:focus{
 
 /* media query for less than 600 screen size (mobile) */
 /* need to check our size*/
- @media only screen and (max-width: 600px){
+ /*@media only screen and (max-width: 600px){
     .row{
         text-align: center;
     }
@@ -306,7 +305,7 @@ input:focus{
     .cart-info p{
         display: none;
     }
- }
+ }*/
 
 
 /* cart items */
@@ -373,7 +372,7 @@ th:last-child{
 
 
 /* for confrimation page */
-body{
+/*body{
     margin: 0;
     height: 100vh;
     display: flex;
@@ -381,7 +380,8 @@ body{
     align-items: center;
     font-family: 'Arial', sans-serif;
     background-color: #fff;
-}
+}*/
+
 .cover{
     display: flex;
     justify-content: center;

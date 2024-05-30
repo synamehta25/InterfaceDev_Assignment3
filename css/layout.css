@@ -1,0 +1,36 @@
+/* Homepage: Main Image */
+#main-image{
+    width: 100%;
+    height: auto;
+}
+
+/* Homepage: Shop by Category */
+.category-container{
+    text-align: center;
+    width: 100%;
+    margin: 5%;
+}
+
+.homepage-categories{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10%;
+}
+
+.home-category{
+    position: relative;
+}
+
+.home-category img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.home-overlay{
+    position: absolute;
+    bottom: 10%;
+    width: 75%;
+    text-align: center;
+    padding: 10px 0;
+}

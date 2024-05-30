@@ -424,23 +424,23 @@ body{
 }
 
 /*Check out Page */
-#checkout{
+.checkout{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-#userinfo{
+.checkouty userinfo{
     width: 50%;
     margin-bottom: 30px;
 }
 
-#subtotal h3, 
-#userinfo h3{
+.checkout subtotal h3, 
+.checkout userinfo h3{
     padding-bottom: 15px;
 }
 
-#userinfo input{
+.checkout userinfo input{
     padding: 10px 20px;
     outline: none;
     width: 60%;
@@ -449,25 +449,25 @@ body{
 }
 
 
-.btncheck{
+.checkout btncheck{
     background-color: #371B06;
     color: white;
     padding: 12px 20px;
 }
-#subtotal{
+.checkout subtotal{
     width: 50%;
     margin-bottom: 30px;
     border: 1px solid white;
     padding: 30px;
 }
 
-#subtotal table{
+.checkout subtotal table{
     border-collapse: collapse;
     width: 100%;
     margin-bottom: 20px;
 }
 
-#subtotal table td{
+.checkout subtotal table td{
     width: 50%;
     border: 1px solid white;
     padding: 10px;

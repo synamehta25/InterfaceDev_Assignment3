@@ -4,10 +4,11 @@
     <meta charsest="UTF-8">
     <meta name="viewport" content = "width=device-width, initial-scale=1.0">
 
-    <title>Discount Animal Supplies Lysterfield</title>
+    <title>List of Product Categories</title>
 
     <!-- CSS Stylesheet-->
     <link rel="stylesheet" href="css\styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
 
 </head>
 
@@ -16,30 +17,93 @@
     <div style="position: relative;width: 100%;height: 100px;top: 0px;left: 0px;">
         <iframe src="header-section.html" style="border: none;width: 100%;height: 100px;position: fixed;top: 0px;left: 0px;" title="iframe-header"></iframe>
     </div>
-    <main>
-        <h1>Dogs</h1>
-        <p><a href="index.html">All Products</a> > Dogs</p>
 
-        <table>
-            <tr>
-                <td>Food</td>
-                <td>Cages</td>
-                <td>Health</td>
-                <td>Treats</td>
-                <td>Fleas</td>
-            </tr>
-            <tr>
-                <td>Grooming</td>
-                <td>Toys</td>
-                <td>Bowls</td>
-                <td>Dispensers</td>
-                <td>Clothes</td>
-            </tr>
-        </table>
-        <ul>
-            <li>Shop by Lifestyle</li>
-            <li>Shop by Size</li>
-        </ul>
+    <main>
+        <header class="dog-category-header">
+            <h1>Dogs</h1>
+            <div class="dog-category-image"></div>
+        </header>
+        <nav class="category-breadcrumb">
+            <a href="#">All Products</a> > <span>Dogs</span>
+        </nav>
+
+        <section class="category-icons-section">
+            <div class="category-icon">
+                <a href="#">
+                    FOOD
+                    <i></i>
+                </a>
+            </div>
+            <div class="category-icon">
+                <a href="#">
+                    CAGES
+                    <i></i>
+                </a>
+            </div>
+            <div class="category-icon">
+                <a href="#">
+                    HEALTH
+                    <i></i>
+                </a>
+            </div>
+            <div class="category-icon">
+                <a href="#">
+                    TREATS
+                    <i></i>
+                </a>
+            </div>
+            <div class="category-icon">
+                <a href="#">
+                    FLEAS
+                    <i></i>
+                </a>
+            </div>
+            <div class="category-icon">
+                <a href="#">
+                    GROOMING
+                    <i></i>
+                </a>
+            </div>
+            <div class="category-icon">
+                <a href="#">
+                    TOYS
+                    <i></i>
+                </a>
+            </div>
+            <div class="category-icon">
+                <a href="#">
+                    BOWLS
+                    <i></i>
+                </a>
+            </div>
+            <div class="category-icon">
+                <a href="#">
+                    DISPENSER
+                    <i></i>
+                </a>
+            </div>
+            <div class="category-icon">
+                <a href="#">
+                    MEDICINES
+                    <i></i>
+                </a>
+            </div>
+        </section>
+
+        <section class="shop-by">
+            <div class="shop-by-style">
+                <h3>SHOP BY LIFESTYLE</h3>
+                <div class="shop-by-button">PUPPY</div>
+                <div class="shop-by-button">ADULT</div>
+                <div class="shop-by-button">SENIOR</div>
+            </div>
+            <div class="shop-by-size">
+                <h3>SHOP BY LIFE SIZE</h3>
+                <div class="shop-by-button">SMALL</div>
+                <div class="shop-by-button">MEDIUM</div>
+                <div class="shop-by-button">LARGE</div>
+            </div>
+        </section>
 
     </main>
 </body>

@@ -1,5 +1,35 @@
-/* Homepage: Shop by Category */
+/* HOMEPAGE */
+/* Shop by Category */
 .home-overlay{
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
+}
+
+/*PRODUCT LIST 1 - CATEGORIES*/
+/* Dog Title Header */
+.dog-category-header{
+    background-color: #0d3b66;
+    color: white;
+}
+
+.category-breadcrumb a{
+    color: #0d3b66;
+}
+
+/*Icons Section*/
+.category-icon{
+    background-color: #371B06;
+}
+.category-icon a{
+    color: #fff;
+}
+
+/*Shop By*/
+.shop-by-style, .shop-by-size{
+    background-color: #371B06;
+    color: #fff;
+}
+
+.shop-by-button{
+    background-color: #9E7B60;
 }

@@ -245,7 +245,16 @@ h4{
 .single-product h4{
     margin: 20px 0;
     font-size: 22px;
-    font-weight: bold;
+    font-weight: normal;
+}
+
+/*I would like to change <p>tag to be normal not bold */
+.single-product .col-2 p{
+    color: black;
+    font-size: 14px;
+    align-items: left;
+    font-weight:  normal;
+    padding: 50px 0;
 }
 
 .single-product select{

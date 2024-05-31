@@ -277,8 +277,12 @@ input:focus{
 }
 
 .single-product .fa{
-    color: yellow;
+    color: #062842;
     margin-left: 10px;
+}
+
+.single-product .rating .fa{
+    color: #FFC44D;
 }
 
 .small-img-row{

@@ -44,6 +44,67 @@
     padding: 10px 0;
 }
 
+/* New and Hot Product Cards*/
+.product-card-container{
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-card{
+    border-radius: 2%;
+    padding: 2%;
+    width: 18%;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.product-card img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2%;
+}
+
+.product-card h4{
+    margin-bottom: 3%;
+}
+
+.product-card .card-brand{
+    margin-bottom: 2%;
+}
+
+.product-card .card-price{
+    margin-bottom: 2%;
+}
+
+.card-old-price{
+    text-decoration: line-through;
+}
+
+.card-discount{
+    padding: 0.8%;
+    border-radius: 4px;
+}
+
+.add-to-cart-btn{
+    border: none;
+    padding: 3% 6%;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3;
+    margin-top: 8%;
+}
+
+.view-more-btn{
+    text-decoration: none;
+    padding: 1%;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 1.5%;
+}
+
 /* Reviews */
 .reviews{
     display: flex;

@@ -5,6 +5,48 @@
     color: #fff;
 }
 
+/*New and Hot Product Cards*/
+.product-card{
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img{
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.product-card .card-brand{
+    color: #888;
+}
+
+.card-old-price{
+    color: #888;
+}
+
+.card-discount{
+    background-color: red;
+    color: white;
+}
+
+.add-to-cart-btn{
+    background-color: #0d3b66;
+    color: #fff;
+}
+
+.add-to-cart-btn:hover{
+    background-color: #071f36;
+}
+
+.view-more-btn{
+    background-color: #0d3b66;
+    color: #fff;
+}
+
+.view-more-btn:hover{
+    background-color: #071f36;
+}
+
 /*PRODUCT LIST 1 - CATEGORIES*/
 /* Dog Title Header */
 .dog-category-header{

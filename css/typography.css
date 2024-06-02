@@ -4,3 +4,81 @@
     font-size: 22px;
     font-weight: bold;
 }
+
+.single-product .col-2 p{
+    font-size: 14px;
+    font-weight:  normal;
+}
+
+.single-product h4{
+font-size: 22px;
+font-weight: normal;
+}
+
+/* cart page */
+.cart-page td a{
+    font-size: 12px;
+}
+
+.cart-page th{
+    font-weight: normal;
+}
+
+
+/* for confrimation page */
+.text-title{
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.text-content{
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.ordernumber{
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* check out */
+.button-purchase{
+    text-transform: uppercase;
+    font-family: Inter;
+    letter-spacing: 3px;
+    text-align: center 
+}
+
+.button-backtocart{
+    text-transform: uppercase;
+    font-family: Inter;
+    letter-spacing: 3px;
+    text-align: center;
+}
+    
+
+/* overall */
+
+.btn2{
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn{
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.col-4 p{
+    font-size: 14px;
+}
+
+
+h4{
+    font-weight: normal;
+}
+
+.col-2 h1{
+    font-size: 50px;
+}

@@ -75,3 +75,95 @@
 .shop-by-button{
     background-color: #9E7B60;
 }
+
+
+/* single product */
+.single-product .rating .fa{
+    color: #FFC44D;
+}
+
+.single-product .fa .fa-star-o{
+    color: grey;
+}
+
+.single-product .fa{
+    color: #062842;
+    margin-left: 10px;
+}
+
+
+.single-product .col-2 p{
+    color: black;
+}
+
+.single-product input{
+    border: 1px solid #104B79;
+}
+
+
+/* cart items */
+.total-price table{
+    border-top: 3px solid #D2E2F8;
+}
+
+.cart-page th{
+    color: #fff;
+    background: #D2E2F8;
+}
+
+.cart-page td a{
+    color: red;
+}
+
+/* Check out */
+.checkout btncheck{
+    background-color: #371B06;
+    color: white;
+}
+
+
+.checkout subtotal{
+    border: 1px solid white;
+}
+
+.checkout subtotal table td{
+    border: 1px solid white;
+}
+
+
+.checkout userinfo input{
+    border: 1px solid #D2E2F8;
+}
+
+.button-backtocart{
+border: 2px solid #371B06;
+}
+
+.button-purchase{
+border: 2px solid #371B06;
+}
+
+
+/* Overall */
+.btn:hover{
+    background: #4D8FE5;
+}
+
+.btn2{
+background: #371B06;
+color: #fff;
+}
+
+.btn{
+background: #062842;
+color: #fff;
+}
+
+.rating .fa{
+    color: #FFC44D;
+}
+
+
+h4{
+    color: black;
+}

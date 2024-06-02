@@ -145,7 +145,6 @@ body{
     width: 100%;
 }
 .col-2 h1{
-    font-size: 50px;
     line-height: 60px;
     margin: 25px 0;
 }
@@ -163,69 +162,35 @@ body{
     width: 100%;
 }
 
-h4{
-    color: black;
-    font-weight: normal;
-}
-
-.col-4 p{
-    font-size: 14px;
-}
-
-.rating .fa{
-    color: #FFC44D;
-}
-
 .col-4:hover{
     transform: translateY(-5)
 }
 
 .btn{
     display: inline-block;
-    background: #062842;
-    color: #fff;
     padding: 8px 30px;
     margin: 30px 0;
     border-radius: 30px;
-    text-align: center;
-    text-decoration: none;
 }
 
 .btn2{
     display: inline-block;
-    background: #371B06;
-    color: #fff;
     padding: 8px 30px;
     margin: 30px 0;
     border-radius: 30px;
-    text-align: center;
-    text-decoration: none;
 }
 
-.btn:hover{
-    background: #4D8FE5;
-}
 
 
 /* check out page */
 .button-purchase{
     display: inline-block;
-    border: 2px solid #371B06;
     padding: 1em;
-    text-transform: uppercase;
-    font-family: Inter;
-    letter-spacing: 3px;
-    text-align: center 
 }
 
 .button-backtocart{
     display: inline-block;
-    border: 2px solid #371B06;
     padding: 1em;
-    text-transform: uppercase;
-    font-family: Inter;
-    letter-spacing: 3px;
-    text-align: center;
 }
 
 
@@ -244,16 +209,11 @@ h4{
 
 .single-product h4{
     margin: 20px 0;
-    font-size: 22px;
-    font-weight: normal;
 }
 
 /*I would like to change <p>tag to be normal not bold */
 .single-product .col-2 p{
-    color: black;
-    font-size: 14px;
     align-items: left;
-    font-weight:  normal;
     padding: 50px 0;
 }
 
@@ -269,25 +229,13 @@ h4{
     padding-left: 10px;
     font-size: 20px;
     margin-right: 10px;
-    border: 1px solid #104B79;
 }
 
 input:focus{
     outline: none;
 }
 
-.single-product .fa{
-    color: #062842;
-    margin-left: 10px;
-}
 
-.single-product .rating .fa{
-    color: #FFC44D;
-}
-
-.single-product .fa .fa-star-o{
-    color: grey;
-}
 .small-img-row{
     display: flex;
     justify-content: space-between;
@@ -339,30 +287,23 @@ table{
     flex-wrap: warp;
 }
  
-th{
+.cart-page th{
     text-align: left;
     padding: 5px;
-    color: #fff;
-    background: #D2E2F8;
-    font-weight: normal;
 }
 
-td{
+
+.cart page td{
     padding: 10px 5px;
 }
 
-td input{
+.cart page td input{
     width: 40px;
     height: 10px;
     padding: 5px;
 }
 
-td a{
-    color: red;
-    font-size: 12px;
-}
-
-td img{
+.cart-page td img{
     width: 80px;
     height: 80px;
     margin-right: 10px;    
@@ -374,10 +315,10 @@ td img{
 }
 
 .total-price table{
-    border-top: 3px solid #D2E2F8;
     width: 100%;
     max-width: 10px;
 }
+
 td:last-child{
     text-align: right;
 }
@@ -424,20 +365,7 @@ th:last-child{
     flex-direction: column;
 }
 
-.text-title{
-    font-size: 2em;
-    margin: 10px 0;
-}
 
-.text-content{
-    font-size: 1.5em;
-    margin: 10px 0;
-}
-
-.ordernumber{
-    font-size: 1.2em;
-    margin: 10px 0;
-}
 
 /*Check out Page */
 .checkout{
@@ -461,21 +389,18 @@ th:last-child{
     outline: none;
     width: 60%;
     margin-right: 10px;
-    border: 1px solid #D2E2F8;
 }
 
 
 .checkout btncheck{
-    background-color: #371B06;
-    color: white;
     padding: 12px 20px;
 }
 .checkout subtotal{
     width: 50%;
     margin-bottom: 30px;
-    border: 1px solid white;
     padding: 30px;
 }
+
 
 .checkout subtotal table{
     border-collapse: collapse;
@@ -485,12 +410,8 @@ th:last-child{
 
 .checkout subtotal table td{
     width: 50%;
-    border: 1px solid white;
     padding: 10px;
     font-size: 13px;
 
 }
-
-
-
 

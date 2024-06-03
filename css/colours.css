@@ -23,13 +23,20 @@
 }
 
 #navlink:hover{
-    color: #000101;
+    color: #7cade7;
 }
 
 #navlist i{
     color: #fff;
 }
 
+.dropdown-content a{
+    color: black;
+}
+
+.dropdown-content{
+    background-color: #537e9f;
+}
 
 /* Shop by Category */
 .home-overlay{

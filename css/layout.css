@@ -114,9 +114,14 @@
 .dropdown-content{
     display: none;
     position: absolute;
-    background-color: #062842;
+    background-color: #537e9f;
     min-width: 100px;
 }
+
+.dropdown-links{
+    display: inline-block;
+}
+
 #nav-list-item:hover .dropdown-content{
     display: block;
 }

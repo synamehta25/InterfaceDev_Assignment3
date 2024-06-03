@@ -1,4 +1,36 @@
 /* HOMEPAGE */
+.header-links i{
+    color: white;
+}
+
+/* Header and Nav Bar*/
+#main-header{
+    background: #062842;
+    box-shadow: 5px black;
+}
+
+.site-nav{
+    background-color: #062842;
+}
+
+.site-nav > li > a{
+    color: white;
+    background-color: #062842;
+}
+
+.navbar{
+    background-color: #104B79;
+}
+
+#navlink:hover{
+    color: #000101;
+}
+
+#navlist i{
+    color: #fff;
+}
+
+
 /* Shop by Category */
 .home-overlay{
     background: rgba(0, 0, 0, 0.5);
@@ -82,6 +114,11 @@
     background-color: #9E7B60;
 }
 
+.product-card a{
+    color: black;
+}
+
+
 
 /* single product */
 .single-product .rating .fa{
@@ -147,6 +184,10 @@ border: 2px solid #371B06;
 
 .button-purchase{
 border: 2px solid #371B06;
+}
+
+.col-3 .btn2 a{
+    color: #fff;
 }
 
 

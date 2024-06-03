@@ -19,6 +19,11 @@
     font-size: larger;
 }
 
+/*Product List*/
+.dog-category-header h1{
+    font-size: 350%;
+}
+
 /* single product detail */
 .single-product {
     margin: 20px 0;
@@ -46,7 +51,7 @@ font-weight: normal;
 }
 
 
-/* for confrimation page */
+/* for confirmation page */
 .text-title{
     font-size: 2em;
     margin: 10px 0;
@@ -55,6 +60,10 @@ font-weight: normal;
 .text-content{
     font-size: 1.5em;
     margin: 10px 0;
+}
+
+.col-3 .btn2 a{
+    font-size: medium;
 }
 
 .ordernumber{

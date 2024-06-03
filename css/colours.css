@@ -153,12 +153,12 @@
 
 /* cart items */
 .total-price table{
-    border-top: 3px solid #D2E2F8;
+    border-top: 3px solid #104B79;
 }
 
 .cart-page th{
     color: #fff;
-    background: #D2E2F8;
+    background: #104B79;
 }
 
 .cart-page td a{

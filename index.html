@@ -47,19 +47,19 @@
 
         <!-- Tagline and Informative Icons -->
         <section>
-            <h1>The Best Online Pet Supply Store Delivering All Across Australia!</h1>
+            <h1 id="best-store">The Best Online Pet Supply Store Delivering <br> All Across Australia!</h1>
             <ul id="icon-row">
                 <li>
-                    <i class="fa-solid fa-truck"></i>
-                    <p>Fast Delivery</p>
+                    <i class="fa-solid fa-truck fa-4x"></i>
+                    <p class="icon-text">Fast Delivery</p>
                 </li>
                 <li>
-                    <i class="fa-solid fa-box"></i>
-                    <p>30 Day Return</p>
+                    <i class="fa-solid fa-box fa-4x"></i>
+                    <p  class="icon-text">30 Day Return</p>
                 </li>
                 <li>
-                    <i class="fa-solid fa-dollar-sign"></i>
-                    <p>Affordable Price</p>
+                    <i class="fa-solid fa-dollar-sign fa-4x"></i>
+                    <p  class="icon-text">Affordable Price</p>
                 </li>
             </ul>
 
@@ -69,20 +69,20 @@
         <!-- Shop by Category -->
         <section>
             <div class="category-container">
-                <h2>Shop by Category</h2>
+                <h2 class="homepage-sub-heading">Shop by Category</h2>
                 <div class="homepage-categories">
-                    <div class="home-category">
+                    <a href="product-list.html" class="home-category">
                         <img src="images\Homepage\walk-category.jpg" alt="Walk">
                         <div class="home-overlay">Walk</div>
-                    </div>
-                    <div class="home-category">
+                    </a>
+                    <a href="product-list.html" class="home-category">
                         <img src="images\Homepage\sleep-category.jpg" alt="Sleep">
                         <div class="home-overlay">Sleep</div>
-                    </div>
-                    <div class="home-category">
+                    </a>
+                    <a href="product-list.html" class="home-category">
                         <img src="images\Homepage\play-category.jpg" alt="Play">
                         <div class="home-overlay">Play</div>
-                    </div>
+                    </a>
                     <div class="home-category">
                         <img src="images\Homepage\feed-category.jpg" alt="Feed">
                         <div class="home-overlay">Feed</div>
@@ -109,11 +109,20 @@
 
         <!--  New and Hot -->
         <section>
-            <h2>New and Hot!</h2>
+            <h2 class="homepage-sub-heading">New and Hot! Save 20% on these Pet Foods!</h2>
             <div class="product-card-container">
                 <div class="product-card">
-                    <img src="" alt="">
-                    <h4>Trixie Feeding Bowl</h4>
+                    <img src="images\Homepage\List1-1.jpg" alt="Dry Food">
+                    <h4> Famina Dry Food - Ocean Cat Herring and Orange</h4>
+                    <p class="card-brand">Famina</p>
+                    <p class="card-price">
+                        <span class="card-old-price">$85</span> <span class="card-new-price">$68</span> <span class="card-discount">Save 20%</span> 
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </p>
+                </div>
+                <div class="product-card">
+                    <img src="images\Homepage\List1-2.jpg" alt="Dry Food">
+                    <h4>Famina Dry Food - Prime Cat Chicken and Pomegranate</h4>
                     <p class="card-brand">Trixie</p>
                     <p class="card-price">
                         <span class="card-old-price">$85</span> <span class="card-new-price">$68</span> <span class="card-discount">Save 20%</span> 
@@ -121,27 +130,18 @@
                     </p>
                 </div>
                 <div class="product-card">
-                    <img src="" alt="">
-                    <h4>Trixie Feeding Bowl</h4>
-                    <p class="card-brand">Trixie</p>
+                    <img src="images\Homepage\List1-3.jpg" alt="Dry Food">
+                    <h4>Arden Grange Kitten Dry Food - Fresh Chicken and Potato</h4>
+                    <p class="card-brand">Arden Grange</p>
                     <p class="card-price">
                         <span class="card-old-price">$85</span> <span class="card-new-price">$68</span> <span class="card-discount">Save 20%</span> 
                         <button class="add-to-cart-btn">Add to Cart</button>
                     </p>
                 </div>
                 <div class="product-card">
-                    <img src="" alt="">
-                    <h4>Trixie Feeding Bowl</h4>
-                    <p class="card-brand">Trixie</p>
-                    <p class="card-price">
-                        <span class="card-old-price">$85</span> <span class="card-new-price">$68</span> <span class="card-discount">Save 20%</span> 
-                        <button class="add-to-cart-btn">Add to Cart</button>
-                    </p>
-                </div>
-                <div class="product-card">
-                    <img src="" alt="">
-                    <h4>Trixie Feeding Bowl</h4>
-                    <p class="card-brand">Trixie</p>
+                    <img src="images\Homepage\List1-4.jpg" alt="Dry Food">
+                    <h4>JerHigh Wet Dog Food - Roasted Duck and Gravy</h4>
+                    <p class="card-brand">JerHigh</p>
                     <p class="card-price">
                         <span class="card-old-price">$85</span> <span class="card-new-price">$68</span> <span class="card-discount">Save 20%</span> 
                         <button class="add-to-cart-btn">Add to Cart</button>
@@ -157,36 +157,80 @@
 
         <!--  Coupons -->
         <section>
-            <!--two images with links for coupons-->
-        </section>
-
-        <!--  Featured Brands -->
-        <section>
-            <!--brand logos-->
+            <h2 class="homepage-sub-heading">Pet-Tastic Sale!</h2>
+            <img class="home-coupons" src="images\Homepage\coupon1.jpg" alt="coupon1">
+            <img class="home-coupons" src="images\Homepage\coupon2.jpg" alt="coupon2">
+            <img class="home-coupons" src="images\Homepage\coupon3.jpg" alt="coupon3">
         </section>
 
         <!--  Top Picks -->
         <section>
-            <h3>Top Picks: Check Out our Bowls and Feeders</h3>
+            <h2 class="homepage-sub-heading">Top Picks: Bowls and Feeders!</h2>
+            <div class="product-card-container">
+                <div class="product-card">
+                    <img src="images\Homepage\L2_1.jpg" alt="Dry Food">
+                    <h4> Trixie Slow Feeder Bowl for Dogs</h4>
+                    <p class="card-brand">Trixie</p>
+                    <p class="card-price">
+                        <p>$68</p>  
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </p>
+                </div>
+                <div class="product-card">
+                    <img src="images\Homepage\L2_2.jpg" alt="Dry Food">
+                    <h4> Outward Hound Fun Feeder for Dogs</h4>
+                    <p class="card-brand">Outward Hound</p>
+                    <p class="card-price">
+                        <p>$68</p>  
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </p>
+                </div>
+                <div class="product-card">
+                    <img src="images\Homepage\L2_3.jpg" alt="Dry Food">
+                    <h4> Trixie Slow Feeder Bowl for Dogs</h4>
+                    <p class="card-brand">Trixie</p>
+                    <p class="card-price">
+                        <p>$68</p>  
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </p>
+                </div>
+                <div class="product-card">
+                    <img src="images\Homepage\L2_4.jpg" alt="Dry Food">
+                    <h4> Lickimat Slow Feeder for Dogs - Classic Buddy</h4>
+                    <p class="card-brand">LickiMat</p>
+                    <p class="card-price">
+                        <p>$68</p>  
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </p>
+                </div>
+                
+            </div>
+            <div class="card-view-more">
+                <a href="product-list.html">
+                    <button class="view-more-btn">View More</button>
+                </a>
+            </div>
         </section>
 
         <!-- Location and Opening Hours -->
         <section>
-            <div>
-                <h3>Opening Hours</h3>
-                <p>Monday-Friday: 9am - 6pm</p>
-                <p>Saturday: 9am - 5pm</p>
-                <p>Sunday: 9am - 4pm</p>
+            <h2 class="homepage-sub-heading">Visit Our Store!</h2>
+            <div class="visit-store">
+                <img src="images\Homepage\map.jpg" alt="map">
+                <div class="opening-hours">
+                    <h2 class="homepage-sub-heading">Opening Hours</h2>
+                    <p>Monday-Friday: 9am - 6pm</p>
+                    <p>Saturday: 9am - 5pm</p>
+                    <p>Sunday: 9am - 4pm</p>
+                    <h2 class="homepage-sub-heading">Location</h2>
+                    <p>150 Williams Road, Lysterfield, VIC 3100</p>
+                </div>
             </div>
-        </section>
- 
-        <!--Download the App -->
-        <section>
         </section>
 
         <!-- Customer Reviews-->
         <section>
-            <h2>The Reviews Are In! Check Out What Our Customers Have To Say!</h2>
+            <h2 class="homepage-sub-heading">The Reviews Are In! Check Out What Our Customers Have To Say!</h2>
             <div class="reviews">
                 <img src="images\Homepage\Review1.jpg" alt="Review 1">
                 <img src="images\Homepage\Review2.jpg" alt="Review 2">
@@ -194,6 +238,10 @@
                 <img src="images\Homepage\Review4.jpg" alt="Review 4">
             </div>
         </section>
+
+        <div>
+            <iframe src="footer-section.html"></iframe>
+        </div>
     </main>
 
     <script src="js/script.js"></script>

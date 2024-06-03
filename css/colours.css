@@ -47,6 +47,12 @@
     background-color: #071f36;
 }
 
+/*Opening Hours*/
+.opening-hours{
+    background-color: #371B06;
+    color: #fff;
+}
+
 /*PRODUCT LIST 1 - CATEGORIES*/
 /* Dog Title Header */
 .dog-category-header{

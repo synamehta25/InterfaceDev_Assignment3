@@ -1,3 +1,24 @@
+/*Homepage*/
+#best-store{
+    font-size: 250%;
+}
+
+.icon-text{
+    font-size: large;
+}
+
+.home-overlay{
+    font-size: 150%;
+}
+
+.homepage-sub-heading{
+    font-size: xx-large;
+}
+
+.view-more-btn{
+    font-size: larger;
+}
+
 /* single product detail */
 .single-product {
     margin: 20px 0;

@@ -1,11 +1,16 @@
 /* HOMEPAGE */
 /* Main Image */
 #main-image{
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
 /* Tagline and Icon Row*/
+#best-store{
+    text-align: center;
+    padding: 5%;
+}
+
 #icon-row{
     list-style-type: none;
     display: flex;
@@ -13,7 +18,18 @@
     justify-content: space-around;
 }
 
+.icon-text{
+    padding: 2%;
+    margin-top: 8%;
+}
+
 /* Shop by Category */
+.homepage-sub-heading{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+
 .category-container{
     text-align: center;
     width: 100%;
@@ -53,6 +69,7 @@
 }
 
 .product-card{
+    margin-top: 30px;
     border-radius: 2%;
     padding: 2%;
     width: 18%;
@@ -98,11 +115,40 @@
 
 .view-more-btn{
     text-decoration: none;
-    padding: 1%;
+    padding: 0.8%;
     border-radius: 20px;
     cursor: pointer;
     text-align: center;
     margin-top: 1.5%;
+}
+
+/*Coupons*/
+.home-coupons{
+    width: 20%;
+    height: auto;
+    margin-left: 2%;
+}
+
+/*Opening Hours*/
+.visit-store{
+    display: inline-flex;
+    gap: 2%;
+}
+
+.opening-hours{
+    width: 80%;
+    margin-left: 5%;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+.opening-hours p{
+    margin: 2%;
+}
+
+.visit-store img{
+    width: 40%;
+    height: auto;
 }
 
 /* Reviews */
@@ -144,12 +190,13 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 4%;
-    row-gap: 40%;
+    row-gap: 30%;
     padding: 2.5%;
 }
 
 .category-icon{
     text-align: center;
+    width: 50%;
     padding: 5%;
     border-radius: 10px;
 }
@@ -181,6 +228,10 @@
     margin: 5% 0;
 }
 
+/* PRODUCT LIST 2 */
+.page-turn{
+    margin: 3%;
+}
 
 /* single product detail */
 .single-product{
@@ -199,7 +250,6 @@
     margin: 20px 0;
 }
 
-/*I would like to change <p>tag to be normal not bold */
 .single-product .col-2 p{
     align-items: left;
     padding: 50px 0;

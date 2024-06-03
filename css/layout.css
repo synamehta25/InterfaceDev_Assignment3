@@ -384,11 +384,18 @@
 
 .single-product h4{
     margin: 20px 0;
+    text-align: left;
+}
+
+.single-product h5{
+    margin: 20px 0;
+    text-align: left;
 }
 
 .single-product .col-2 p{
     align-items: left;
     padding: 50px 0;
+    text-align: left;
 }
 
 .single-product select{
